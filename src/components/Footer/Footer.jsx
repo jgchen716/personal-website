@@ -4,7 +4,7 @@ import { Link } from 'react-scroll';
 import PortfolioContext from '../../context/context';
 import GithubButtons from '../GithubButtons/GithubButtons';
 
-import { githubButtons } from '../../mock/data';
+import { githubButtons } from '../../data/data';
 
 const Footer = () => {
   const { footer } = useContext(PortfolioContext);
@@ -38,10 +38,10 @@ const Footer = () => {
         </div>
         <hr />
         <p className="footer__text">
-          © {new Date().getFullYear()} - Template developed by{' '}
-          <a href="https://github.com/cobidev" target="_blank" rel="noopener noreferrer">
-            Jacobo Martínez
-          </a>
+          <a href="https://github.com/jgchen716" target="_blank" rel="noopener noreferrer">
+            Jonathan Chen
+          </a>{' '}
+          © {new Date().getFullYear()}
         </p>
 
         {isEnabled && <GithubButtons />}

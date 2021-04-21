@@ -1,15 +1,18 @@
-#projects {
-  background-color: $white-color;
-  color: $dark-blue-text;
+#experience {
+  background-image: linear-gradient(135deg, $primary-color 0%, $secondary-color 100%);
+  -webkit-clip-path: polygon(0 15vh, 100% 0, 100% 100%, 0 100%);
+  clip-path: polygon(0 15vh, 100% 0, 100% 100%, 0 100%);
+  padding: 15rem 0 10rem 0;
   margin-top: -15rem;
-  padding-top: 15rem;
+  margin-bottom: -1px;
+  color: $white-color;
 
   @include respond(tab-land) {
     margin-top: 0;
     padding-top: 5rem;
   }
 
-  .project-wrapper {
+  .experience-wrapper {
     margin-bottom: 15rem;
 
     @include respond(phone) {
@@ -22,10 +25,6 @@
       @include respond(phone) {
         margin-bottom: 4rem;
       }
-    }
-
-    .mb-4 {
-      font-weight: bolder;
     }
 
     &__text {
@@ -51,6 +50,15 @@
       & p > a {
         color: $secondary-color;
       }
+    }
+
+    .mb-4 {
+      font-weight: bolder;
+    }
+
+    .loc {
+      font-weight: lighter;
+      font-style: italic;
     }
 
     &__image {
