@@ -1,4 +1,5 @@
 module.exports = {
+  pathPrefix: '/portfolio-website',
   plugins: [
     `gatsby-plugin-sass`,
     `gatsby-plugin-react-helmet`,
