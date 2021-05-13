@@ -12,6 +12,48 @@ const Projects = () => {
   const [isDesktop, setIsDesktop] = useState(false);
   const [isMobile, setIsMobile] = useState(false);
 
+  const renderButtons = (url, repo) => {
+    if (url && repo) {
+      return (
+        <div>
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            className="cta-btn cta-btn--hero"
+            href={url || '#!'}
+          >
+            See Live
+          </a>
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            className="cta-btn text-color-main"
+            href={repo}
+          >
+            Source Code
+          </a>
+        </div>
+      );
+    }
+    if (url) {
+      return (
+        <a
+          target="_blank"
+          rel="noopener noreferrer"
+          className="cta-btn cta-btn--hero"
+          href={url || '#!'}
+        >
+          See Live
+        </a>
+      );
+    }
+    return (
+      <a target="_blank" rel="noopener noreferrer" className="cta-btn cta-btn--hero" href={repo}>
+        Source Code
+      </a>
+    );
+  };
+
   useEffect(() => {
     if (window.innerWidth > 769) {
       setIsDesktop(true);
@@ -46,14 +88,7 @@ const Projects = () => {
                         <p>{info}</p>
                         <p className="mb-4">{info2 || ''}</p>
                       </div>
-                      <a
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="cta-btn cta-btn--hero"
-                        href={url || '#!'}
-                      >
-                        See Live
-                      </a>
+                      {renderButtons(url, repo)}
                     </div>
                   </Fade>
                 </Col>

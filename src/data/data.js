@@ -2,7 +2,7 @@ import { nanoid } from 'nanoid';
 
 // HEAD DATA
 export const headData = {
-  title: 'Jonathan Chen | Aspiring Developer',
+  title: 'Jonathan Chen | Aspiring Software Developer',
   lang: '', // e.g: en, es, fr, jp
   description: "Jonathan Chen's personal porfolio website",
 };
@@ -11,7 +11,7 @@ export const headData = {
 export const heroData = {
   title: "Hi, I'm",
   name: 'Jonathan Chen',
-  subtitle: 'An aspiring developer studying at UPenn.',
+  subtitle: 'An aspiring software developer studying at UPenn.',
   cta: 'Know more',
 };
 
@@ -19,7 +19,7 @@ export const heroData = {
 export const aboutData = {
   img: 'profile.jpg',
   paragraphOne:
-    'I’m a second-year student at UPenn majoring in CS and Cognitive Science and minoring in Data Science. I’m an aspiring software engineer / full stack developer who’s fascinated by AI and Machine Learning.',
+    'I’m a rising third-year student at UPenn majoring in CS and Cognitive Science and minoring in Data Science and Math. I’m an aspiring software engineer / full stack developer who’s fascinated by AI and Machine Learning.',
   paragraphTwo:
     'I’m originally from New Jersey, and when I’m lucky enough to have free time, you can find me learning how to code with new tech, writing about my experiences, or lifting weights. ',
   paragraphThree:
@@ -31,18 +31,28 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: 'Graph Visualizer',
+    img: 'graph.png',
+    title: 'Graph Visualizer 🖥️',
     info:
-      'Created React app that allows users to add nodes and edges to a graph, then run various graph algorithms on the created graph and view live results',
+      'Implemented React app that allows users to add nodes and edges to a graph, then run various graph algorithms (e.g. BFS, DFS, Dijkstra, finding global bridges, etc.) on the created graph and view live results',
     info2: 'Tech Stack: React, HTML, CSS, Material UI',
     url: 'https://jgchen716.github.io/graph-visualizer/',
     repo: 'https://github.com/jgchen716/graph-visualizer', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: 'Penn Course Cart',
+    img: 'spotify_project.jpg',
+    title: 'Spotify Playlist Generator 🎧',
+    info:
+      "Created a playlist generator that applies k-means clustering to a given user's liked songs, grouping tracks together based on audio features collected from Spotify API",
+    info2: 'Tech Stack: Spotify Web API, Python (Pandas, Spotipy, Seaborn, Plotly)',
+    url: 'https://colab.research.google.com/drive/1NCwPhwlZyNEkJsooMAS94tFPu-bXi7sx?usp=sharing',
+    repo: 'https://github.com/jgchen716/spotify-ml', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
+    img: 'cart.png',
+    title: 'Penn Course Cart 🛒',
     info:
       'Developed shopping cart app that allows users to view information about CS courses at Penn, add them to shopping cart, and checkout selected courses with receipt',
     info2: 'Tech Stack: React, HTML, CSS, React-Bootstrap',
@@ -51,13 +61,13 @@ export const projectsData = [
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '[CIS 195 FINAL PROJECT]',
+    img: 'habittrack.jpg',
+    title: 'Habit Track 📆',
     info:
-      'Created a habit tracker app that allows users to create, delete, and actively record different habits stored in a Firestore database',
-    info2: 'Tech Stack: Swift, UIKit, Firestore, EventKit',
-    url: 'https://github.com/jgchen716/habit-tracker-app',
-    repo: 'https://github.com/jgchen716/habit-tracker-app', // if no repo, the button will not show up
+      'Created a habit tracker app that allows users to create, delete, and actively record a number of habits with a game-like interface',
+    info2: 'Tech Stack: Swift, UIKit',
+    url: '',
+    repo: 'https://github.com/jgchen716/habit-tracker', // if no repo, the button will not show up
   },
 ];
 
@@ -65,7 +75,7 @@ export const projectsData = [
 export const experienceData = [
   {
     id: nanoid(),
-    img: 'project.jpg',
+    img: 'bhw.png',
     title: 'Software Engineering Intern @ The BHW Group',
     info:
       'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
@@ -75,7 +85,7 @@ export const experienceData = [
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
+    img: 'cis120.png',
     title: 'Teaching Assistant for CIS 120 @ UPenn',
     info:
       'Teach coding fundamentals in Java and OCaml to over 400 students per semester; Lead weekly recitation of up to 25 students to review concepts; Create and update programming assignments ',
