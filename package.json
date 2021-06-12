@@ -7,8 +7,8 @@
   "license": "MIT",
   "scripts": {
     "build": "gatsby build --prefix-paths",
-    "deploy": "gatsby build --prefix-paths && gh-pages -d public",
-    "develop": "gatsby develop --prefix-paths",
+    "deploy": "gatsby build --prefix-paths",
+    "develop": "gatsby develop",
     "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
     "predeploy": "npm run build",
     "start": "npm run develop",
