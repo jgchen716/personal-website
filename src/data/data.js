@@ -76,9 +76,9 @@ export const experienceData = [
   {
     id: nanoid(),
     img: 'bhw.png',
-    title: 'Software Engineering Intern @ The BHW Group',
+    title: 'Web and Mobile Development Intern @ The BHW Group',
     info:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+      'Worked on full stack development for real estate web application, implementing front end with NextJS and back end API in Go.',
     info2: 'May 2021 - August 2021',
     info3: 'Austin, TX',
     url: 'https://thebhwgroup.com/',
