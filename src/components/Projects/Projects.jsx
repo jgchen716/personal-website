@@ -49,19 +49,6 @@ const Projects = () => {
       );
     }
 
-    if (repo) {
-      return (
-        <a
-          target="_blank"
-          rel="noopener noreferrer"
-          className="cta-btn cta-btn--hero"
-          href={repo || '#!'}
-        >
-          Source Code
-        </a>
-      );
-    }
-
     return (
       <a target="_blank" rel="noopener noreferrer" className="cta-btn cta-btn--hero" href={repo}>
         Source Code
