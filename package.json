@@ -6,8 +6,8 @@
   "version": "0.1.0",
   "license": "MIT",
   "scripts": {
-    "build": "gatsby build --prefix-paths",
-    "deploy": "gatsby build --prefix-paths",
+    "build": "gatsby build",
+    "deploy": "gatsby build",
     "develop": "gatsby develop",
     "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
     "predeploy": "npm run build",
