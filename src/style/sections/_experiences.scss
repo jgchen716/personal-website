@@ -87,3 +87,10 @@
     }
   }
 }
+
+@media (max-width: 1400px) {
+  #experience {
+    -webkit-clip-path: none;
+    clip-path: none;
+  }
+}
