@@ -24,7 +24,7 @@ export const aboutData = {
     'I’m originally from New Jersey, and when I’m lucky enough to have free time, you can find me learning how to code with new tech, writing about my experiences, or lifting weights. ',
   paragraphThree:
     'My goal? To make applications—web and mobile—that draw visitors in and have an impact in the real world.',
-  resume: 'https://drive.google.com/file/d/1_W8eyuyHrSDBH4wZh96pw3NZgUing7H2/view?usp=sharing', // if no resume, the button will not show up
+  resume: 'https://drive.google.com/file/d/1KcQbxu_HHWk0_-uJm6iziihQzpR5DllV/view?usp=sharing', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
