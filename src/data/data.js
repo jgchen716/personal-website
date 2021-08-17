@@ -120,6 +120,11 @@ export const footerData = {
       name: 'github',
       url: 'https://github.com/jgchen716',
     },
+    {
+      id: nanoid(),
+      name: 'medium',
+      url: 'https://medium.com/@jonathanchen716',
+    },
   ],
 };
 
