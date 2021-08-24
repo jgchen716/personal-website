@@ -1,18 +1,17 @@
-#experience {
-  background-image: linear-gradient(135deg, $primary-color 0%, $secondary-color 100%);
+#publications {
   -webkit-clip-path: polygon(0 15vh, 100% 0, 100% 100%, 0 100%);
   clip-path: polygon(0 15vh, 100% 0, 100% 100%, 0 100%);
-  padding: 15rem 0 10rem 0;
+  background-color: $white-color;
+  color: $dark-blue-text;
   margin-top: -15rem;
-  margin-bottom: -1px;
-  color: $white-color;
+  padding-top: 15rem;
 
   @include respond(tab-land) {
     margin-top: 0;
     padding-top: 5rem;
   }
 
-  .experience-wrapper {
+  .publications-wrapper {
     margin-bottom: 15rem;
 
     @include respond(phone) {
@@ -88,12 +87,12 @@
   }
 }
 
-.experience-btn {
-  margin-top: -0.5px;
+.publication-info {
+  margin-bottom: 32px;
 }
 
 @media (max-width: 1400px) {
-  #experience {
+  #publications {
     -webkit-clip-path: none;
     clip-path: none;
   }

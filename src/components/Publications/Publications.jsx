@@ -6,8 +6,8 @@ import PortfolioContext from '../../context/context';
 import Title from '../Title/Title';
 import ProjectImg from '../Image/ProjectImg';
 
-const Experience = () => {
-  const { experiences } = useContext(PortfolioContext);
+const Publications = () => {
+  const { publications } = useContext(PortfolioContext);
 
   const [isDesktop, setIsDesktop] = useState(false);
   const [isMobile, setIsMobile] = useState(false);
@@ -23,12 +23,12 @@ const Experience = () => {
   }, []);
 
   return (
-    <section id="experience">
+    <section id="publications">
       <Container>
-        <div className="experience-wrapper">
-          <Title title="Experience" />
-          {experiences.map((experience) => {
-            const { title, info, info2, info3, url, img, id } = experience;
+        <div className="publications-wrapper">
+          <Title title="Publications" />
+          {publications.map((publication) => {
+            const { title, info, date, url, img, id } = publication;
 
             return (
               <Row key={id}>
@@ -40,25 +40,24 @@ const Experience = () => {
                     delay={500}
                     distance="30px"
                   >
-                    <div className="experience-wrapper__text">
-                      <h3 className="experience-wrapper__text-title">
-                        {title || 'Experience Title'}
+                    <div className="publications-wrapper__text">
+                      <h3 className="publications-wrapper__text-title">
+                        {title || 'Publication Title'}
                       </h3>
-                      <p className="mb-4">{info2 || ''}</p>
-                      <div className="experience-wrapper__text">
-                        <p>
+                      <p className="mb-4">{date || ''}</p>
+                      <div className="publications-wrapper__text">
+                        <p className="publication-info">
                           {info ||
                             'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi neque, ipsa animi maiores repellendu distinctioaperiam earum dolor voluptatum consequatur blanditiis inventore debitis fuga numquam voluptate architecto itaque molestiae.'}
                         </p>
-                        <p className="mb-4 loc">{info3 || ''}</p>
                       </div>
                       <a
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="cta-btn cta-btn--resume experience-btn"
+                        className="cta-btn cta-btn--hero"
                         href={url || '#!'}
                       >
-                        See More
+                        Read It!
                       </a>
                     </div>
                   </Fade>
@@ -71,11 +70,11 @@ const Experience = () => {
                     delay={1000}
                     distance="30px"
                   >
-                    <div className="experience-wrapper__image">
+                    <div className="publications-wrapper__image">
                       <a
                         href={url || '#!'}
                         target="_blank"
-                        aria-label="Experience Link"
+                        aria-label="Publication Link"
                         rel="noopener noreferrer"
                       >
                         <Tilt
@@ -108,4 +107,4 @@ const Experience = () => {
   );
 };
 
-export default Experience;
+export default Publications;

@@ -18,7 +18,7 @@ const Contact = () => {
             <a
               target="_blank"
               rel="noopener noreferrer"
-              className="cta-btn cta-btn--hero"
+              className="cta-btn cta-btn--resume"
               href={email ? `mailto:${email}` : 'https://github.com/cobidev/react-simplefolio'}
             >
               {btn}

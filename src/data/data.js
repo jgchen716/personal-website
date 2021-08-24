@@ -95,6 +95,37 @@ export const experienceData = [
   },
 ];
 
+//  PUBLICATIONS DATA
+export const publicationsData = [
+  {
+    id: nanoid(),
+    img: 'why_i_switched_to_cs.jpeg',
+    title: 'Why I Switched from "Pre-Med" to Computer Science',
+    info: 'The story and reasoning behind how I started studying CS.',
+    date: 'May 11, 2020',
+    url:
+      'https://medium.com/@jonathanchen716/why-i-switched-from-pre-med-to-computer-science-676bb4ea2f4f',
+  },
+  {
+    id: nanoid(),
+    img: 'on_the_working_life.jpeg',
+    title: 'On the Working Life',
+    info:
+      'An essay on what the concepts of "work" and a "dream job" mean and have meant to me, submitted to The Medium Writers Challenge (2021).',
+    date: 'August 23, 2021',
+    url: 'https://medium.com/@jonathanchen716/on-the-working-life-bad8027a77af',
+  },
+  {
+    id: nanoid(),
+    img: 'embracing_challenge.jpeg',
+    title: 'Embracing the Challenge: My Road to Lifting Weights, Coding, and So Much More',
+    info: 'An essay on how my mindset toward challenges has evolved over time, with some examples.',
+    date: 'August 16, 2021',
+    url:
+      'https://medium.com/@jonathanchen716/embracing-the-challenge-my-road-to-lifting-weights-coding-and-so-much-more-457f1a2ffe27',
+  },
+];
+
 // CONTACT DATA
 export const contactData = {
   cta: 'Would you like to work with me? Awesome!',
