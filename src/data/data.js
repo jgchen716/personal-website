@@ -11,7 +11,7 @@ export const headData = {
 export const heroData = {
   title: "Hi, I'm",
   name: 'Jonathan Chen',
-  subtitle: 'An aspiring software developer studying at UPenn.',
+  subtitle: 'An aspiring software engineer studying at UPenn.',
   cta: 'Know more',
 };
 
@@ -31,6 +31,16 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
+    img: 'spotify_project.jpg',
+    title: 'Spotify Playlist Generator 🎧',
+    info:
+      "Created a playlist generator that applies k-means clustering to a given user's liked songs, grouping tracks together based on audio features collected from Spotify API",
+    info2: 'Tech Stack: Spotify Web API, Python (Scikit-Learn, Pandas, Spotipy, Seaborn, Plotly)',
+    url: 'https://colab.research.google.com/drive/1NCwPhwlZyNEkJsooMAS94tFPu-bXi7sx?usp=sharing',
+    repo: 'https://github.com/jgchen716/spotify-ml', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
     img: 'graph.png',
     title: 'Graph Visualizer 🖥️',
     info:
@@ -38,16 +48,6 @@ export const projectsData = [
     info2: 'Tech Stack: React, HTML, CSS, Material UI',
     url: 'https://jgchen716.github.io/graph-visualizer/',
     repo: 'https://github.com/jgchen716/graph-visualizer', // if no repo, the button will not show up
-  },
-  {
-    id: nanoid(),
-    img: 'spotify_project.jpg',
-    title: 'Spotify Playlist Generator 🎧',
-    info:
-      "Created a playlist generator that applies k-means clustering to a given user's liked songs, grouping tracks together based on audio features collected from Spotify API",
-    info2: 'Tech Stack: Spotify Web API, Python (Pandas, Spotipy, Seaborn, Plotly)',
-    url: 'https://colab.research.google.com/drive/1NCwPhwlZyNEkJsooMAS94tFPu-bXi7sx?usp=sharing',
-    repo: 'https://github.com/jgchen716/spotify-ml', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
