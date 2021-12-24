@@ -2,9 +2,9 @@ import { nanoid } from 'nanoid';
 
 // HEAD DATA
 export const headData = {
-  title: 'Jonathan Chen | Aspiring Software Developer',
+  title: 'Jonathan Chen | Aspiring Software Engineer',
   lang: '', // e.g: en, es, fr, jp
-  description: "Jonathan Chen's personal porfolio website",
+  description: "Jonathan Chen's personal porfolio",
 };
 
 // HERO DATA
@@ -19,11 +19,11 @@ export const heroData = {
 export const aboutData = {
   img: 'profile.jpg',
   paragraphOne:
-    'I’m a third-year student at UPenn majoring in CS and Cognitive Science and minoring in Data Science and Math. I’m an aspiring software engineer / full stack developer who’s fascinated by AI and Machine Learning.',
+    'I’m a third-year student at UPenn majoring in CS and Cognitive Science and minoring in Data Science and Math. I’m an aspiring software/ML engineer who is fascinated by AI and Machine Learning.',
   paragraphTwo:
     'I’m originally from New Jersey, and when I’m lucky enough to have free time, you can find me learning how to code with new tech, writing about my experiences, or lifting weights. ',
   paragraphThree:
-    'My goal? To make applications—web and mobile—that draw visitors in and have an impact in the real world.',
+    'My goal? To make applications—web and mobile—that draw visitors in and have impact in the real world.',
   resume: 'https://drive.google.com/file/d/16R2-MkAofrDT-8-SZjbduyP5fjse7zr9/view?usp=sharing', // if no resume, the button will not show up
 };
 
