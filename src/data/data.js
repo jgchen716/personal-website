@@ -24,7 +24,7 @@ export const aboutData = {
     'I’m originally from New Jersey, and when I’m lucky enough to have free time, you can find me learning how to code with new tech, writing about my experiences, or lifting weights. ',
   paragraphThree:
     'My goal? To make applications—web and mobile—that draw visitors in and have impact in the real world.',
-  resume: 'https://drive.google.com/file/d/16R2-MkAofrDT-8-SZjbduyP5fjse7zr9/view?usp=sharing', // if no resume, the button will not show up
+  resume: 'https://drive.google.com/file/d/16DWgOlzcj-gT92bJJCxA1DPcZFUXD7fw/view?usp=sharing', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
@@ -75,6 +75,26 @@ export const projectsData = [
 export const experienceData = [
   {
     id: nanoid(),
+    img: '',
+    title: 'Incoming Software Engineering Intern @ Google',
+    info:
+      'Incoming Summer 2022 SWE Intern',
+    info2: 'December 2021 - Present',
+    info3: '',
+    url: '',
+  },
+  {
+    id: nanoid(),
+    img: '',
+    title: 'Teaching Assistant for PHYS260 @ UPenn',
+    info:
+      'Co-teach and grade assignments on modern computational methods in Python for differentiation, integration, data visualization, solving systems of linear and nonlinear equations, and solving differential equations.',
+    info2: 'January 2022 - Present',
+    info3: 'Philadelphia, PA',
+    url: '',
+  },
+  {
+    id: nanoid(),
     img: 'bhw.png',
     title: 'Web and Mobile Development Intern @ The BHW Group',
     info:
@@ -86,7 +106,7 @@ export const experienceData = [
   {
     id: nanoid(),
     img: 'cis120.png',
-    title: 'Teaching Assistant for CIS 120 @ UPenn',
+    title: 'Teaching Assistant for CIS120 @ UPenn',
     info:
       'Teach coding fundamentals in Java and OCaml to over 400 students per semester; Lead weekly recitation of up to 25 students to review concepts; Create and update programming assignments ',
     info2: 'August 2020 - Present',
