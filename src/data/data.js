@@ -75,7 +75,7 @@ export const projectsData = [
 export const experienceData = [
   {
     id: nanoid(),
-    img: 'google.png',
+    img: 'google.jpg',
     title: 'Incoming Software Engineering Intern @ Google',
     info:
       'Incoming Summer 2022 SWE Intern',
