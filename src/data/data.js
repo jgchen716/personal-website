@@ -75,7 +75,7 @@ export const projectsData = [
 export const experienceData = [
   {
     id: nanoid(),
-    img: '',
+    img: 'google.png',
     title: 'Incoming Software Engineering Intern @ Google',
     info:
       'Incoming Summer 2022 SWE Intern',
@@ -85,13 +85,13 @@ export const experienceData = [
   },
   {
     id: nanoid(),
-    img: '',
+    img: 'phys260.png',
     title: 'Teaching Assistant for PHYS260 @ UPenn',
     info:
       'Co-teach and grade assignments on modern computational methods in Python for differentiation, integration, data visualization, solving systems of linear and nonlinear equations, and solving differential equations.',
     info2: 'January 2022 - Present',
     info3: 'Philadelphia, PA',
-    url: '',
+    url: 'https://live-sas-physics.pantheon.sas.upenn.edu/node/250',
   },
   {
     id: nanoid(),
