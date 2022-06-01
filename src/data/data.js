@@ -150,7 +150,7 @@ export const publicationsData = [
 export const contactData = {
   cta: 'Would you like to work with me? Awesome!',
   btn: "Let's Talk",
-  email: 'jgchen@sas.upenn.edu',
+  email: 'jonathanchen716@gmail.com',
 };
 
 // FOOTER DATA
@@ -159,7 +159,7 @@ export const footerData = {
     {
       id: nanoid(),
       name: 'envelope',
-      url: 'mailto:jgchen@sas.upenn.edu',
+      url: 'mailto:jonathanchen716@gmail.com',
     },
     {
       id: nanoid(),
