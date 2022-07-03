@@ -19,12 +19,12 @@ export const heroData = {
 export const aboutData = {
   img: 'profile.jpg',
   paragraphOne:
-    'I’m a third-year student at UPenn majoring in CS and Cognitive Science and minoring in Data Science and Math. I’m an aspiring software/ML engineer who is fascinated by AI and Machine Learning.',
+    'I’m a rising fourth-year student at UPenn majoring in CS and Cognitive Science and minoring in Math. I’m an aspiring software/ML engineer who is fascinated by AI and Machine Learning.',
   paragraphTwo:
-    'I’m originally from New Jersey, and when I’m lucky enough to have free time, you can find me learning how to code with new tech, writing about my experiences, or lifting weights. ',
+    'I’m originally from New Jersey, and when I’m lucky enough to have free time, you can find me learning how to code with new tech 💻, writing about my experiences ✍️, or rock climbing 🧗‍♂️. ',
   paragraphThree:
     'My goal? To make applications—web and mobile—that draw visitors in and have impact in the real world.',
-  resume: 'https://drive.google.com/file/d/16DWgOlzcj-gT92bJJCxA1DPcZFUXD7fw/view?usp=sharing', // if no resume, the button will not show up
+  resume: 'https://drive.google.com/file/d/1n5PkwQHYDpsCseSqmattQrnVI99t2Gcf/view?usp=sharing', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
@@ -75,13 +75,13 @@ export const projectsData = [
 export const experienceData = [
   {
     id: nanoid(),
-    img: 'google.jpg',
-    title: 'Incoming Software Engineering Intern @ Google',
+    img: 'google_ad_manager.png',
+    title: 'Software Engineering Intern @ Google',
     info:
-      'Incoming Summer 2022 SWE Intern',
-    info2: 'December 2021 - Present',
-    info3: '',
-    url: '',
+      'Google Ad Manager Team: Built and designed signal for setting Topics API transmitted between client and backend servers in C++. Incorporated and tested business use cases for signal with end-to-end integration testing in Python. Documented necessary code changes and communicated results to coworkers on Google Ad Manager team.',
+    info2: 'May 2022 - August 2022',
+    info3: 'New York, New York',
+    url: 'https://admanager.google.com/home/',
   },
   {
     id: nanoid(),
@@ -98,7 +98,7 @@ export const experienceData = [
     img: 'bhw.png',
     title: 'Web and Mobile Development Intern @ The BHW Group',
     info:
-      'Worked on full stack development for real estate web application, implementing front end with NextJS and back end API in Go.',
+      'Worked on full stack development for real estate web application (texasland.com), implementing front end with NextJS and back end API in Go.',
     info2: 'May 2021 - August 2021',
     info3: 'Austin, TX',
     url: 'https://thebhwgroup.com/',
@@ -108,7 +108,7 @@ export const experienceData = [
     img: 'cis120.png',
     title: 'Teaching Assistant for CIS120 @ UPenn',
     info:
-      'Teach coding fundamentals in Java and OCaml to over 400 students per semester; Lead weekly recitation of up to 25 students to review concepts; Create and update programming assignments ',
+      'Teach OOP and functional programming fundamentals in Java and OCaml to over 400 students per semester; Lead weekly recitation of up to 25 students to review concepts; Create and update programming assignments ',
     info2: 'August 2020 - Present',
     info3: 'Philadelphia, PA',
     url: 'https://www.seas.upenn.edu/~cis120/current/',
