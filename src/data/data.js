@@ -75,7 +75,7 @@ export const projectsData = [
 export const experienceData = [
   {
     id: nanoid(),
-    img: 'google_ad_manager.png',
+    img: 'ads.jpeg',
     title: 'Software Engineering Intern @ Google',
     info:
       'Google Ad Manager Team: Built and designed signal for setting Topics API transmitted between client and backend servers in C++. Incorporated and tested business use cases for signal with end-to-end integration testing in Python. Documented necessary code changes and communicated results to coworkers on Google Ad Manager team.',
