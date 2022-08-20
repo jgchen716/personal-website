@@ -19,7 +19,7 @@ export const heroData = {
 export const aboutData = {
   img: 'profile.jpg',
   paragraphOne:
-    'I’m a current fourth-year student at UPenn majoring in CS and Cognitive Science and minoring in Math. I’m an aspiring software engineer who is fascinated by AI and Machine Learning.',
+    'I’m a fourth-year student at UPenn majoring in CS and Cognitive Science and minoring in Math. I’m an aspiring software engineer who is fascinated by AI and Machine Learning.',
   paragraphTwo:
     'I’m originally from New Jersey, and when I’m lucky enough to have free time, you can find me learning how to code with new tech 💻, writing about my experiences ✍️, or rock climbing 🧗‍♂️. ',
   paragraphThree:
